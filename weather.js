@@ -43,7 +43,8 @@
 
                   // Getting weather data from the API
                 var https = require('https');
-                var postcodeUrl = "https://api.forecast.io/forecast/e940596ad7f4439931aaf38610224c2b/";
+                // *** INSERT FORECAST.IO API KEY IN LINE BELOW ***
+                var postcodeUrl = "https://api.forecast.io/forecast/YOUR_API_KEY/";
                 postcodeUrl += myLat + ",";
                 postcodeUrl += myLong;
                   // Ask for the data
